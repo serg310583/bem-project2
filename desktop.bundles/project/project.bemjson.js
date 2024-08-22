@@ -1,12 +1,8 @@
 ({
     block: "page",
     title: "project",
-    head: [
-        { elem: "css", url: "project.min.css" },
-        { elem: "css", url: "media.css" },
-    ],
-    // scripts: [{ elem: "js", url: "project.min.js" }],
-    // mods: { theme: "islands" },
+    head: [{ elem: "css", url: "project.min.css" }],
+
     content: [
         {
             block: "header",
