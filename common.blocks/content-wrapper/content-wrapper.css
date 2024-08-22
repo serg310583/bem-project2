@@ -1,0 +1,19 @@
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+    min-height: 250px;
+    margin-bottom: 5px;
+}
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.pageContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
